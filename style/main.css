@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	padding: 0;
+
+	font-family: "Segoe UI", Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	
+	background-color: #232323;
+}
+
+#omnibar{
+	position:static;
+	background-color: #2765a1;
+	width: 100%;
+	border-style: none;
+	border-radius: 0;
+}
+
+.selectionbar{
+	float: right;
+}
+
+.selectionbar ul li{
+	font-size: 20px;
+}
+
+.navbar-default .navbar-nav li a{
+	color: white;
+}
+
+li:hover{
+	cursor: pointer;
+	background-color: #ff8c00;
+}
+
+#maincontent{
+	margin:2%;
+	margin-top: 5%;
+}
+
+thead{
+	background-color: #ff8c00;
+}
+
+table{
+	color: white;
+	background-color: #353535;
+}
+
+tbody{
+	cursor: pointer;
+}
+
+#createproject{
+	vertical-align:middle;
+}
+
+#createcopy{
+	vertical-align: middle;
+}
+
+.create{
+	float: right;
+}
+
+.createbutton{
+	background-color: #ff8c00;
+	width: 50px;
+	height: 50px;
+	border-radius: 9999px;
+	background-repeat: no-repeat;
+	text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.createbutton:hover{
+	cursor: pointer;
+}
+
+.createbutton:active{
+	background-color:#2765a1;
+}
+
+.glyphicon{
+	line-height: 1.8;
+}
+
+.tablecontent{
+}
